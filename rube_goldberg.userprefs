@@ -1,8 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\cameraControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\theSun.cs">
     <Files>
-      <File FileName="Assets\scripts\cameraControl.cs" Line="35" Column="32" />
+      <File FileName="Assets\scripts\gearTrigger.cs" Line="21" Column="55" />
+      <File FileName="Assets\scripts\theSun.cs" Line="16" Column="51" />
+      <File FileName="Assets\scripts\cameraControl.cs" Line="11" Column="31" />
+      <File FileName="Assets\scripts\catapultTrigger.cs" Line="21" Column="46" />
+      <File FileName="Assets\scripts\grondTrigger.cs" Line="22" Column="53" />
+      <File FileName="Assets\scripts\gearMovement.cs" Line="11" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -2,15 +2,17 @@
 using System.Collections;
 
 public class theSun : MonoBehaviour {
-
-	public ParticleSystem corona1;
-	public ParticleSystem corona2;
-	public ParticleSystem corona3;
 	
+	public GameObject sunText;
+	public GameObject catapultText;
+	Rigidbody body;
+	
+	//drops sun and displays text on sphere collision
 	void OnTriggerEnter(Collider other) {
-		Destroy(other);
-		corona1.enableEmission = true;
-		corona2.enableEmission = true;
-		corona3.enableEmission = true;
+		Destroy(other.gameObject);
+		body = GetComponent<Rigidbody>();
+		body.useGravity = true;
+		sunText.GetComponent<TextMesh>().text = "YOU HAVE ANGERED\n THE SUN GOD";
+		catapultText.GetComponent<TextMesh>().text = "";
 	}
 }
